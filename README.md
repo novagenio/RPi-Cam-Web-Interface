@@ -9,9 +9,9 @@ La configuración de las opciones se encuentra en el fichero de configuración /
 
 Dentro de /etc/raspimjpeg, comentar la línea, #thumb_gen vit, si no queremos que genere los ficheros con el prefijo tm
 
-  # thumb generator control 
-  # Set v, i, or t in string to enable thumbs for images, videos, or lapse 
-  #thumb_gen vit      <-------------------------------- esta linea hay que comentara con un #
+# thumb generator control 
+# Set v, i, or t in string to enable thumbs for images, videos, or lapse 
+#thumb_gen vit      <-------------------------------- esta linea hay que comentara con un #
 En el apartado #file location, se encuentra la definición y ubicación entre otras cosas, de las imágenes y las macros. Aquí ej. De las imágenes.
 
   image_path /var/www/html/media/im_%i_%Y%M%D_%h%m%s.jpg 
